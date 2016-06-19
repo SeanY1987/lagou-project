@@ -1,0 +1,67 @@
+{
+  "COMPANY": [],
+  "POSITION": [
+    {
+      "cont": "java",
+      "order": 0,
+      "hot": 1480.0,
+      "hotness": 9840
+    },
+    {
+      "cont": "java 实习",
+      "order": 1,
+      "hot": 41.0,
+      "hotness": 68
+    },
+    {
+      "cont": "javascript",
+      "order": 2,
+      "hot": 37.0,
+      "hotness": 311
+    },
+    {
+      "cont": "java 架构师",
+      "order": 3,
+      "hot": 27.0,
+      "hotness": 272
+    },
+    {
+      "cont": "java后台",
+      "order": 4,
+      "hot": 21.0,
+      "hotness": 14
+    },
+    {
+      "cont": "java web",
+      "order": 5,
+      "hot": 13.0,
+      "hotness": 11
+    },
+    {
+      "cont": "java后端",
+      "order": 6,
+      "hot": 13.0,
+      "hotness": 5
+    },
+    {
+      "cont": "java 经理",
+      "order": 7,
+      "hot": 12.0,
+      "hotness": 19
+    },
+    {
+      "cont": "java服务端",
+      "order": 8,
+      "hot": 10.0,
+      "hotness": 2
+    },
+    {
+      "cont": "java服务器",
+      "order": 9,
+      "hot": 9.0,
+      "hotness": 5
+    }
+  ],
+  "BIZ_AREA": [],
+  "REGION": []
+}
