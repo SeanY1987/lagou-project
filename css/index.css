@@ -1,0 +1,917 @@
+body {
+    font: 14px/22px "Hiragino Sans GB", "Microsoft YaHei", "SimSun";
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.la_header {
+    margin: 0 auto;
+    width: 100%;
+    height: 86px;
+    -webkit-user-select: none;
+}
+
+.la_header .lg_tbar {
+    width: 100%;
+    height: 30px;
+    background: #333333;
+}
+
+.la_header .lg_tbar .inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1308px;
+    line-height: 30px;
+}
+
+.lg_tbar .inner .lg_tbar_l, .lg_tbar .inner .lg_tbar_r {
+    position: absolute;
+    top: 0;
+}
+
+.lg_tbar .inner .lg_tbar_l {
+    left: 10px;
+    width: 190px;
+}
+
+.lg_tbar .inner .lg_tbar_l a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #c4c3c3;
+
+}
+
+.lg_tbar .inner .lg_tbar_l a.lg_app {
+    width: 60px;
+    background: url("../img/app_icon_4940eb3.png") 1px 0 no-repeat;
+    color: #08d7a2;
+    padding: 0 18px;
+
+}
+
+.lg_tbar .inner .lg_tbar_l a:hover {
+    color: white;
+}
+
+.lg_tbar .inner .lg_tbar_l a.lg_app:hover {
+    color: #05eaaf;
+}
+
+.lg_tbar .inner .lg_tbar_l a.lg_enterprise {
+    width: 80px;
+    height: 15px;
+    padding: 0 12px;
+    border-left: 1px solid #c4c3c3;
+}
+
+.lg_tbar .inner .lg_tbar_r {
+    right: 0;
+}
+
+.lg_tbar .inner .lg_tbar_r a {
+    width: 15px;
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #c4c3c3;
+}
+
+.lg_tbar .inner .lg_tbar_r a.lg_tbar_r_login {
+    border-right: 1px solid #c4c3c3;
+}
+
+.lg_tbar .inner .lg_tbar_r a:hover {
+    color: white;
+}
+
+.lg_tnav {
+    width: 100%;
+    height: 56px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    color: #fafafa;
+}
+
+.lg_tnav .inner {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.lg_tnav .inner .lg_tnav_l {
+    float: left;
+    width: 260px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.lg_tnav .inner .lg_tnav_l a {
+    float: left;
+    display: block;
+}
+
+.lg_tnav .inner .lg_tnav_l h1 {
+    margin: 10px 0 0 0;
+    width: 97px;
+    height: 34px;
+    background-image: url("../img/logo_1c5763c.png");
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+.lg_tnav .inner .lg_tnav_l .suggestCity {
+    float: left;
+    height: 44px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: 100;
+    color: #333;
+}
+
+.lg_tnav .inner .lg_tnav_l .suggestCity span {
+    font-size: 12px;
+}
+
+.lg_tnav .inner .lg_tnav_wrap {
+    float: left;
+}
+
+.lg_tnav .inner .lg_tnav_wrap li {
+    position: relative;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.lg_tnav .inner .lg_tnav_wrap li a {
+    display: block;
+    width: 40px;
+    height: 54px;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 54px;
+    text-align: center;
+    color: #999;
+}
+
+.lg_tnav .inner .lg_tnav_wrap li a.lg_tnav_wrap_f {
+    border-bottom: 2px solid #08d7a2;
+    color: #333;
+}
+
+.lg_tnav .inner .lg_tnav_wrap li a:hover {
+    border-bottom: 2px solid #08d7a2;
+    color: #333;
+}
+
+/*container start*/
+.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.container {
+    margin: 35px auto 0;
+
+    width: 1024px;
+    padding-bottom: 100px;
+}
+
+.sidebar {
+    width: 230px;
+    float: left;
+    position: relative;
+    /*z-index: 101;*/
+}
+
+.sidebar .mainNavs {
+    background: #fafafa;
+}
+
+.sidebar .menu_box {
+
+}
+
+.sidebar .menu_box .menumain {
+    position: relative;
+    padding: 6px 12px;
+    border: 2px solid #fafafa;
+    border-right: 2px solid #fff;
+    overflow: hidden;
+}
+
+.sidebar .menu_box .menumain h2 {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebar .menu_box .menumain h2 i {
+    background: url("../img/newLabel_a3b2897.png") 0 0 no-repeat;
+    width: 37px;
+    height: 17px;
+    position: absolute;
+    left: 60px;
+    top: 2px;
+}
+
+.sidebar .menu_box .menumain h2 span {
+    float: right;
+    margin-top: 4px;
+    width: 13px;
+    height: 13px;
+    background: url("../img/arr_6c6ecd7.png") repeat;
+}
+
+.sidebar .menu_box .menumain a {
+    display: inline-block;
+    margin: 7px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    color: #555;
+}
+
+.sidebar .menu_box .menumain a:hover {
+    text-decoration: underline;
+    color: #00b38a;
+}
+
+.sidebar .menu_box .menu_sub {
+    display: none;
+    position: absolute;
+    left: 230px;
+    top: 0;
+    width: 540px;
+    padding: 15px 30px 5px;
+    z-index: 101;
+    border: 2px solid #c9cbce;
+    background: #fff;
+}
+
+.sidebar .menu_box .menu_sub dl {
+    margin-bottom: 20px;
+}
+
+.sidebar .menu_box .menu_sub dl dt {
+    width: 70px;
+    font-size: 14px;
+    text-align: right;
+    position: absolute;
+}
+
+.sidebar .menu_box .menu_sub dl dt a {
+    line-height: 28px;
+    color: #333;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.sidebar .menu_box .menu_sub dl dd {
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.sidebar .menu_box .menu_sub dl dd a {
+    white-space: nowrap;
+    line-height: 28px;
+    padding: 0 20px;
+    background: url("../img/arr_6c6ecd7.png") no-repeat;
+    background-position: -29px center !important;
+    color: #777;
+    margin-left: -1px;
+}
+
+.sidebar .menu_box .menu_sub dl dd a.curr {
+    color: #00b38a;
+}
+
+.sidebar .subscribe {
+    display: block;
+    height: 46px;
+    padding: 0 0 0 20px;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 46px;
+    border-bottom: 2px solid #00b38a;
+    background: #fafafa;
+}
+
+.sidebar .subscribe a {
+    display: block;
+    float: left;
+    margin-bottom: -32px;
+    width: 210px;
+}
+
+.sidebar .subscribe a span {
+    float: left;
+    margin-left: 20px;
+}
+
+.sidebar .subscribe a:hover {
+    color: #00b38a;
+}
+
+.sidebar .subscribe i#n_rss {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+    width: 21px;
+    height: 40px;
+    background: url("../img/arr_btn_34cdbac.png") 0 -19px no-repeat;
+}
+
+/*sidebar end*/
+
+/*content start*/
+.content {
+    width: 744px;
+    margin-left: 280px;
+}
+
+.content .search_box {
+    position: relative;
+    width: 740px;
+    height: 37px;
+    border: 0 solid #00b38a;
+}
+
+.content .search_box .searchForm {
+    position: relative;
+}
+
+.content .search_box .searchForm .search_input {
+    float: left;
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+    padding: 5px 8px 5px 10px;
+    border: 2px solid #00b38a;
+    border-right: 0;
+}
+
+.content .search_box .searchForm .search_button {
+    float: right;
+    width: 150px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #00b38a;
+    background: #00b38a;
+    cursor: pointer;
+}
+.content .search_box .searchList{
+    /*position: relative;*/
+    /*top:36px;*/
+    position: absolute;
+    top: 35px;
+    left: 0;
+    display: none;
+    background: #fff;
+    width: 587px;
+    border: 2px solid #00b38a;
+    z-index: 1002;
+}
+.content .search_box .searchList li{
+    padding-left: 5px ;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.content .search_box .searchList li:hover{
+    background: #00b38a;
+    color: #fff;
+}
+
+
+.content .hotSearch {
+    overflow: hidden;
+    margin: 6px 0 18px;
+}
+
+.content .hotSearch dt {
+    float: left;
+    width: 70px;
+    height: 22px;
+}
+
+.content .hotSearch dd {
+    float: left;
+    margin-right: 20px;
+}
+
+.content .hotSearch dd .current {
+    color: #00b38a;
+}
+
+.content .hotSearch dd a:hover {
+    text-decoration: underline;
+}
+
+.content .home_banner {
+    position: relative;
+    margin: 0 0 18px;
+    width: 744px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.content .home_banner .banner_bg {
+    float: left;
+    width: 612px;
+    height: 160px;
+    position: relative;
+    left: 0;
+}
+
+.content .home_banner .banner_control {
+    float: left;
+    width: 121px;
+    height: 160px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.content .home_banner .banner_control em {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 127px;
+    height: 50px;
+    background: url("../img/control_current_3d8ebbe.png") no-repeat 0 0;
+    z-index: 21;
+}
+
+.content .home_banner .banner_control .thumbs {
+
+}
+
+.content .home_banner .banner_control .thumbs li {
+    width: 113px;
+    height: 42px;
+    border: 4px solid #d3d3d3;
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.content .home_banner .banner_control .thumbs li i {
+    position: absolute;
+    width: 115px;
+    height: 42px;
+    background: url("../img/thumb_cover_d65c767.png") no-repeat -2px 0;
+}
+
+.content .home_banner .banner_control .thumbs .current i {
+    background: none;
+}
+
+.content .da_thumbs {
+    height: 118px;
+    position: relative;
+    margin: 0 0 25px;
+}
+
+.content .da_thumbs li {
+    float: left;
+    margin-right: 8px;
+    background: #fff;
+    position: relative;
+    border: 2px solid #fafafa;
+}
+
+.content .da_thumbs li.last {
+    margin-right: 0;
+}
+
+.content .da_thumbs li a, .content .da_thumbs li a img {
+    display: block;
+    position: relative;
+}
+
+.content .da_thumbs li a {
+    color: #fff;
+    overflow: hidden;
+}
+
+.content .da_thumbs li a div {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 179, 138, .9);
+
+}
+
+.content .da_thumbs li a .hot_info h2 {
+    height: 44px;
+    margin: 10px 8px 8px;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content .da_thumbs li a .hot_info em {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: rgba(255, 255, 255, .3);
+    background: #fff \0;
+    filter: alpha(opacity=30);
+    margin: 0 6px;
+
+}
+
+.content .da_thumbs li a .hot_info p {
+    font-size: 12px;
+    margin: 6px 8px;
+    line-height: 18px;
+}
+
+.content .job_tab {
+    -webkit-user-select: none;
+    background: #f6f6f6;
+}
+
+.content .job_tab li {
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+}
+
+.content .job_tab li.current {
+    color: #333;
+    background: #fff;
+    border-top: 3px solid #00b38a;
+}
+
+.hotList .position_list {
+    display: none;
+}
+
+.hotList div.init_joblist {
+    display: block;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.hot_posHotPosition {
+
+}
+
+.hot_posHotPosition ul {
+
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.position_list_item {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+li .pli_top {
+    height: 62px;
+    padding-top: 22px;
+    padding-left: 15px;
+    background: #fff;
+    overflow: hidden;
+}
+
+li .pli_top .pli_top_l {
+    width: 400px;
+    margin-right: 20px;
+}
+
+li .pli_top .pli_top_l .position_name {
+    height: 34px;
+}
+
+li .pli_top .pli_top_l .position_name h2 {
+    font-size: 15px;
+}
+
+li .pli_top .pli_top_l .position_name h2 .position_link {
+    max-width: 256px;
+}
+
+.position_list_item .wordCut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.pli_top a {
+    color: #00b38a;
+}
+
+.pli_top span.salary {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fa6041;
+}
+
+.pli_top_r {
+    width: 309px;
+}
+
+.pli_top_r .company_name {
+    width: 294px;
+    height: 34px;
+    color: #00b38a;
+}
+
+.pli_top_r .company_name a {
+    font-size: 16px;
+}
+
+li .pli_btm {
+    height: 39px;
+    background: #fafafa;
+    border-bottom: 1px dashed #ccc;
+}
+
+li .pli_btm .pli_btm_l {
+    width: 400px;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px 0 15px;
+}
+
+li .pli_btm .pli_btm_r {
+    width: 309px;
+    margin-top: 8px;
+}
+
+li .pli_btm .pli_btm_r span {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 0 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.hot_posHotPosition .list_more {
+    margin: 25px 0 0;
+    padding: 5px 40px 5px 15px;
+    font-size: 16px;
+    color: #fff;
+    background: #00b38a url("../img/arrow_54116b2.png") 88px center no-repeat;
+}
+
+.content .link_box {
+    padding: 15px 0 0;
+    margin-top: 40px;
+    border-top: 1px solid #ececed;
+    overflow: hidden;
+}
+
+.content .link_box dl dt {
+    float: left;
+    width: 70px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.content .link_box dl dd {
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.content .link_box dl dd a {
+    white-space: nowrap;
+    float: left;
+    height: 15px;
+    padding: 8px 9px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+.content .link_box dl dd a.more {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.content .link_box dl dd span {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+}
+
+.new_posHotPositon {
+
+}
+
+/*container end*/
+/*footer start*/
+#backTop {
+    position: fixed;
+    left: 50%;
+    margin-left: 548px;
+    bottom: 70px;
+    width: 28px;
+    height: 64px;
+    cursor: pointer;
+    background: url("../img/backtop_6e69c27.png") left top no-repeat;
+}
+
+#backTop:hover {
+    background: url("../img/backToTop.png") -18px 0px no-repeat;
+}
+
+#footer {
+    position: relative;
+    height: 67px;
+    width: 100%;
+    min-width: 1024px;
+    border-top: 1px solid #ebebeb;
+    background: #fff;
+}
+
+#footer .wrapper {
+    width: 1024px;
+    height: 67px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer .wrapper .footer_lg_icon {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 198px;
+    height: 19px;
+    background: url("../img/footer_lagou_icon_66d2b4b.png") 0 0 no-repeat;
+    z-index: 1;
+}
+
+#footer .wrapper .inner_wrapper {
+    margin-left: 270px;
+    float: left;
+    padding-top: 12px;
+    height: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+}
+
+#footer .wrapper .inner_wrapper a {
+    margin-right: 10px;
+}
+
+#footer .inner_wrapper .footer_app {
+    position: relative;
+    width: 86px;
+}
+
+#footer .inner_wrapper .footer_app:hover {
+
+}
+
+#footer .inner_wrapper .footer_app span {
+    position: absolute;
+    right: 0;
+    top: -2px;
+    display: inline-block;
+    background: url("../img/new_v1_a261f5c.png") no-repeat;
+    width: 30px;
+    height: 16px;
+    margin-left: 3px;
+    vertical-align: text-top;
+    overflow: hidden;
+    text-indent: -99em;
+}
+
+#footer .inner_wrapper .footer_qr {
+    position: relative;
+}
+
+.footer_app img, .footer_qr img {
+    display: none;
+    border: 3px solid #0D9572;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 1001;
+}
+
+#footer .inner_wrapper a, #footer .inner_wrapper span.tel {
+    float: left;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#footer span em {
+    font-size: 13px;
+    font-style: normal;
+}
+
+#footer .copyright {
+    clear: both;
+    height: 12px;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    color: #d5d5d5;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+
+/*footer end*/
+.loginToolBar {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: url("../img/footbar_btn_green_e62c2f7.png") repeat-x;
+    z-index: 1000;
+}
+
+.loginToolBar em {
+    display: block;
+    width: 95px;
+    height: 54px;
+    background: url(../img/footbar_img_4a640f1.png) no-repeat;
+    position: absolute;
+    top: -53px;
+    left: 60px;
+}
+
+.loginToolBar div img {
+    position: absolute;
+    top: 12px;
+    left: 60px;
+}
+
+.loginToolBar div span.companycount {
+    display: inline-block;
+    margin: 20px 0 0 300px;
+    /*width: 155px;*/
+    height: 30px;
+    padding-right: 33px;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #dafaf4;
+    text-align: center;
+    background: url("../img/footbar_text_11fdeab.png") right 16px no-repeat;
+}
+
+.loginToolBar div span.companycount i,.loginToolBar div span.positioncount i {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url(../img/footbar_no_4f305ce.png) 0 0 no-repeat;
+}
+
+.loginToolBar div span.companycount b ,.loginToolBar div span.positioncount b{
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: url(../img/footbar_comma_5c45a18.png) center bottom no-repeat;
+}
+
+.loginToolBar div span.positioncount{
+    display: inline-block;
+    margin: 20px 0 0 60px;
+    /*width: 157px;*/
+    height: 30px;
+    padding-right: 33px;
+    line-height: 38px;
+    text-align: center;
+    background: url("../img/footbar_text_11fdeab.png") right -92px no-repeat;
+}

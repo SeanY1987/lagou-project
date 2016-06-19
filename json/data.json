@@ -1,0 +1,166 @@
+[
+  {
+    "num": "001",
+    "position": "U3D工程师",
+    "companyname": "奇虎",
+    "salary": "20k-30k",
+    "experience": "经验1-2年",
+    "education": "硕士",
+    "companytype": "互联网·电子商务 / 初创型（天使轮）",
+    "companydis": "五险一金 绩效奖金 技术大拿多/氛围好",
+    "companygood": "生日/满年趴岗位晋升"
+  },
+  {
+    "num": "002",
+    "position": "Perl工程师",
+    "companyname": "土豆",
+    "salary": "20k-30k",
+    "experience": "经验3-5年",
+    "education": "博士",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "发展空间大",
+    "companygood": "生日/满年趴结婚生育礼金"
+  },
+  {
+    "num": "003",
+    "position": "C工程师",
+    "companyname": "完美时空",
+    "salary": "10k-20k",
+    "experience": "经验3-5年",
+    "education": "硕士",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "五险一金 绩效奖金 技术大拿多/氛围好",
+    "companygood": "绩效奖金多岗位晋升"
+  },
+  {
+    "num": "004",
+    "position": "ASP工程师",
+    "companyname": "新东方",
+    "salary": "15k以上",
+    "experience": "经验3-5年",
+    "education": "本科",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "五险一金 绩效奖金 技术大拿多/氛围好",
+    "companygood": "岗位晋升绩效奖金多"
+  },
+  {
+    "num": "005",
+    "position": "Java工程师",
+    "companyname": "畅游",
+    "salary": "18k",
+    "experience": "经验1-2年",
+    "education": "高中以上",
+    "companytype": "移动互联网 / 成长型(B轮)",
+    "companydis": "拥有5000w月流水项目，职位晋升空间大",
+    "companygood": "年底双薪结婚生育礼金"
+  },
+  {
+    "num": "006",
+    "position": "Go工程师",
+    "companyname": "土豆",
+    "salary": "18k",
+    "experience": "经验3-5年",
+    "education": "硕士",
+    "companytype": "移动互联网 / 成长型(B轮)",
+    "companydis": "薪资+高额年终奖+团队项目期权",
+    "companygood": "结婚生育礼金股票期权"
+  },
+  {
+    "num": "007",
+    "position": "精准推荐工程师",
+    "companyname": "完美时空",
+    "salary": "20k-30k",
+    "experience": "经验1-2年",
+    "education": "博士",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "发展空间大",
+    "companygood": "半年调薪年底双薪"
+  },
+  {
+    "num": "008",
+    "position": "移动开发工程师",
+    "companyname": "巨人网络",
+    "salary": "15k以上",
+    "experience": "经验3-5年",
+    "education": "博士",
+    "companytype": "移动互联网 / 成长型(B轮)",
+    "companydis": "五险一金 免费双餐 30天年假",
+    "companygood": "绩效奖金多岗位晋升"
+  },
+  {
+    "num": "009",
+    "position": "精准推荐工程师",
+    "salary": "15k以上",
+    "experience": "经验1-2年",
+    "education": "本科",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "薪资+高额年终奖+团队项目期权",
+    "companygood": "生日/满年趴绩效奖金多"
+  },
+  {
+    "num": "010",
+    "position": "Ruby工程师",
+    "companyname": "新东方",
+    "salary": "18k-30k",
+    "experience": "经验1-2年",
+    "education": "博士",
+    "companytype": "互联网·电子商务 / 初创型（天使轮）",
+    "companydis": "薪资+高额年终奖+团队项目期权",
+    "companygood": "股票期权年底双薪"
+  },
+  {
+    "num": "011",
+    "position": "html5工程师",
+    "companyname": "前程无忧",
+    "salary": "18k",
+    "experience": "经验1-2年",
+    "education": "本科",
+    "companytype": "移动互联网 / 成长型(B轮)",
+    "companydis": "发展空间大",
+    "companygood": "半年调薪绩效奖金多"
+  },
+  {
+    "num": "012",
+    "position": "后端开发其它工程师",
+    "companyname": "盛大游戏",
+    "salary": "18k",
+    "experience": "经验3-5年",
+    "education": "博士",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "五险一金 免费双餐 30天年假",
+    "companygood": "绩效奖金多绩效奖金多"
+  },
+  {
+    "num": "013",
+    "position": "JavaScript工程师",
+    "companyname": "盛大游戏",
+    "salary": "18k-30k",
+    "experience": "经验3-5年",
+    "education": "高中以上",
+    "companytype": "互联网·电子商务 / 初创型（天使轮）",
+    "companydis": "五险一金 绩效奖金 技术大拿多/氛围好",
+    "companygood": "绩效奖金多年底双薪"
+  },
+  {
+    "num": "014",
+    "position": "Shell工程师",
+    "companyname": "易居中国",
+    "salary": "15k以上",
+    "experience": "经验1-2年",
+    "education": "硕士",
+    "companytype": "移动互联网 · 数据服务 / 成长型(不需要融资)",
+    "companydis": "五险一金 免费双餐 30天年假",
+    "companygood": "半年调薪绩效奖金多"
+  },
+  {
+    "num": "015",
+    "position": "移动开发工程师",
+    "companyname": "土豆",
+    "salary": "18k-30k",
+    "experience": "经验3-5年",
+    "education": "本科",
+    "companytype": "金融 / 成长型(A轮)",
+    "companydis": "薪资+高额年终奖+团队项目期权",
+    "companygood": "岗位晋升半年调薪"
+  }
+]
